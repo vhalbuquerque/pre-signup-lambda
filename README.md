@@ -1,6 +1,8 @@
 # pre-signup-lambda
 
-Lambda for AWS Cognito Pre Signup Trigger that checks username (as email) as unique in the Cognito User Pool
+**Lambda Function** for AWS Cognito Pre Signup Trigger that assures e-mail (username) as unique in the Cognito User Pool.
+
+**Username duplication is a common issue for apps that use multiple authentication methods like Social Sign-in and E-mail.**
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
@@ -9,7 +11,7 @@ This project contains source code and supporting files for a serverless applicat
 - pre-signup-lambda/tests - Unit tests for the application code.
 - template.yaml - A template that defines the application's AWS resources.
 - template.local.yaml - A template as the previous but including env variables key to run locally.
-- env.example.yaml - Environment variables JSON file
+- env.example.yaml - A sample of environment variables JSON file
 
 ## Install dependencies
 
